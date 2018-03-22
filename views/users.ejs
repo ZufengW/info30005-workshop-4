@@ -8,7 +8,9 @@
   <h1>All users</h1>
   <ul>
     <% for (let i=0; i<users.length; i++) { %>
-      <li><a href=<%= "/users/"+i%>><%= users[i].name %></a></li>
+      <li><a href=<%= "/users/"+i%>>
+              <%= users[i].name %>
+        </a></li>
     <% } %>
   </ul>
   <p></p>
