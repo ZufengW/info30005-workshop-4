@@ -1,7 +1,7 @@
 const users = require("../models/db");
 
 const fetchHome = (req, res) => {
-  res.send("Hello world");
+  res.render("home");
 };
 
 const fetchUsers = (req, res) => {
